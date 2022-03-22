@@ -26,15 +26,8 @@ docker run -v "$(pwd)/api/specs:/specs" -p 5000:5000 quay.io/saucelabs/piestry -
 ---
 
 [20]: https://docs.saucelabs.com/api-testing/mocking/
+
 [21]: https://docs.saucelabs.com/api-testing/logger/
 
 
-
-
 [40]: https://github.com/OAI/OpenAPI-Specification
-
-
-
-https://github.com/OAI/OpenAPI-Specification
-https://github.com/OAI/OpenAPI-Specification/tree/main/examples
-https://github.com/OAI/OpenAPI-Specification.git
