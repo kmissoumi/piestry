@@ -34,22 +34,22 @@ paths:
               schema:
                 $ref: "#/components/schemas/Pets"
               examples:
-                  pet_1:
+                  pet_100:
                     x-sauce-cond:
                       op: equals
                       collection: uriParams
                       key: id
                       value: 100
                       priority: 10
-                    externalValue: examples/pet_1.json
-                  pet_2:
+                    externalValue: petstore/pet/pet_100.json
+                  pet_101:
                     x-sauce-cond:
                       op: equals
                       collection: uriParams
                       key: id
                       value: 101
                       priority: 20
-                    externalValue: examples/pet_2.json
+                    externalValue: petstore/pet/pet_101.json
         default:
           description: unexpected error
           content:
@@ -91,22 +91,22 @@ paths:
               schema:
                 $ref: "#/components/schemas/Pet"
               examples:
-                pet_1:
+                pet_100:
                   x-sauce-cond:
                     op: equals
                     collection: uriParams
                     key: id
                     value: "100"
                     priority: 10
-                  externalValue: examples/pet_1.json
-                pet_2:
+                  externalValue: petstore/pet/pet_100.json
+                pet_101:
                   x-sauce-cond:
                     op: equals
                     collection: uriParams
                     key: id
                     value: "101"
-                    priority: 20
-                  externalValue: examples/pet_2.json
+                    priority: 10
+                  externalValue: petstore/pet/pet_101.json
         default:
           description: unexpected error
           content:
