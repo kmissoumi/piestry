@@ -41,15 +41,7 @@ paths:
                       key: id
                       value: 100
                       priority: 10
-                    externalValue: petstore/pet/pet_100.json
-                  pet_101:
-                    x-sauce-cond:
-                      op: equals
-                      collection: uriParams
-                      key: id
-                      value: 101
-                      priority: 20
-                    externalValue: petstore/pet/pet_101.json
+                    externalValue: petstore/s/pets.json
         default:
           description: unexpected error
           content:
