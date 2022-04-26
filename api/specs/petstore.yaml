@@ -41,7 +41,7 @@ paths:
                       key: id
                       value: 100
                       priority: 10
-                    externalValue: petstore/pets.json
+                    externalValue: petstore/pets/pets.json
         default:
           description: unexpected error
           content:
@@ -97,7 +97,7 @@ paths:
                     collection: uriParams
                     key: id
                     value: "101"
-                    priority: 10
+                    priority: 20
                   externalValue: petstore/pet/pet_101.json
         default:
           description: unexpected error
