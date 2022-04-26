@@ -41,7 +41,7 @@ paths:
                       key: id
                       value: 100
                       priority: 10
-                    externalValue: petstore/s/pets.json
+                    externalValue: petstore/pets.json
         default:
           description: unexpected error
           content:
